@@ -1088,7 +1088,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, "Proxima Nova Soft", Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "proxima-nova-soft", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #5a5a5a;
@@ -5996,7 +5996,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, "Proxima Nova Soft", Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "proxima-nova-soft", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;

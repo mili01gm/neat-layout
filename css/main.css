@@ -4,14 +4,8 @@
   src: url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
 }
 
-/*
-----------------------------
-COMMON
-----------------------------
-*/
-
-.text-blue {
-  color: blue;
+* {
+  font-family: "proxima-nova-soft", Arial, sans-serif;
 }
 
 /*
@@ -21,12 +15,16 @@ OUR WORK
 */
 
 .section {
+  padding: 75px 0;
+}
+
+.section-works {
   margin: 0 0 50px;
   text-align: center;
 }
 
 @media (min-width: 768px){
-  .section {
+  .section-works {
       text-align: left;
   }
 }
@@ -40,12 +38,78 @@ OUR WORK
   border-radius: 50%;
 }
 
+.title-works {
+  color: #3498DB;
+  margin: 0 0 10px;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.section-works .h5 {
+  font-size: 18px;
+  line-height: 24px;
+  line-height: 1.71429rem;
+  display: block;
+  margin: 0 0 10px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+@media screen and (min-width: 768px){
+  .section-works .h5 {
+      font-size: 1.25em;
+      line-height: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .section-works .h5 {
+      font-size: 1.15em;
+      line-height: 2.8rem;
+  }
+}
+
+.section-span .icon {
+  width: 155px;
+  height: 155px;
+}
+
+.icon-works {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
 /*
 ---------------------------
 OUR PROMISE
 ---------------------------
 */
 
-.page-header {
-  text-align: center;
+.section-community {
+    background-color: #75B9E7;
+    overflow: hidden;
+    padding: 75px 0 200px;
 }
+
+@media (min-width: 768px){
+  .section-community {
+      padding: 50px 0 150px;
+  }
+}
+
+@media (min-width: 992px){
+  .section-community {
+      padding: 75px 0 200px;
+  }
+}
+
+/*
+-------------------------
+MEDIA
+-------------------------
+*/

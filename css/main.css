@@ -8,11 +8,23 @@
   font-family: "proxima-nova-soft", Arial, sans-serif;
 }
 
+.title-blue {
+  color: #3498DB;
+  margin: 0 0 10px;
+  font-size: 3em;
+  font-weight: 700;
+}
+
 /*
 ---------------------------
 OUR WORK
 ---------------------------
 */
+
+#works {
+  padding: 50px 0 0;
+  background-color: #F9F9F9;
+}
 
 .section {
   padding: 75px 0;
@@ -38,14 +50,7 @@ OUR WORK
   border-radius: 50%;
 }
 
-.title-works {
-  color: #3498DB;
-  margin: 0 0 10px;
-  font-size: 3em;
-  font-weight: 700;
-}
-
-.section-works .h5 {
+.p-text {
   font-size: 18px;
   line-height: 24px;
   line-height: 1.71429rem;
@@ -56,14 +61,14 @@ OUR WORK
 }
 
 @media screen and (min-width: 768px){
-  .section-works .h5 {
+  .p-text {
       font-size: 1.25em;
       line-height: 3.2rem;
   }
 }
 
 @media screen and (max-width: 768px){
-  .section-works .h5 {
+  .p-text {
       font-size: 1.15em;
       line-height: 2.8rem;
   }
@@ -87,6 +92,36 @@ OUR WORK
 /*
 ---------------------------
 OUR PROMISE
+---------------------------
+*/
+
+#promise .page-header {
+  text-align: center;
+}
+
+.page-header .title-blue {
+  font-size: 3.5em;
+}
+
+.page-header .p-text {
+  font-size: 1.8em;
+}
+
+.lil-promise {
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+@media (min-width: 768px){
+  .lil-promise {
+      margin: 0 0 30px;
+      border: 0;
+  }
+}
+
+/*
+---------------------------
+COMMUNITY
 ---------------------------
 */
 

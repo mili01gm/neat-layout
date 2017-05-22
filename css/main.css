@@ -21,6 +21,12 @@
   font-weight: 700;
 }
 
+.title-white {
+  color: #fff;
+  margin: 0 0 10px;
+  font-size: 2.5em;
+  font-weight: 700;
+}
 .icon {
   display: inline-block;
   width: 50px;
@@ -38,6 +44,11 @@
   width: 30px;
   height: 30px;
 }
+
+.div-center {
+  text-align: center;
+}
+
 
 /*
 ---------------------------
@@ -183,13 +194,48 @@ HEADER
 
 @media screen and (min-width: 992px){
   .info-header {
-      margin: 0 0 50px;
+    margin: 0 0 50px;
   }
 }
 
 .info-logo {
-    width: 120px;
-    margin: 0 auto 10px;
+  width: 120px;
+  margin: 0 auto 10px;
+}
+
+.info-header h2 {
+  font-size: 28px;
+  font-size: 5.3rem;
+  letter-spacing: 3px;
+  line-height: 6.2rem;
+}
+
+.info-header  h4 {
+  font-size: 22px;
+  font-size: 2.5rem;
+}
+
+.btn--primary {
+  color: #fff;
+  background-color: #3498db;
+  box-shadow: inset 0px 0px 0px 2px transparent;
+}
+
+.btn--md-lg {
+  padding: 10px 50px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  border-radius: 999px;
+}
+
+@media (min-width: 768px){
+  .btn--md-lg {
+    padding: 14px 45px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 999px;
+  }
 }
 
 /*
@@ -249,7 +295,8 @@ OUR WORK
   height: 155px;
 }
 
-.icon-works {
+.icon-works,
+.header-hero .header-content {
   position: absolute;
   left: 50%;
   top: 50%;

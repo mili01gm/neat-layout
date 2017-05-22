@@ -183,7 +183,7 @@ HEADER
 
 @media (min-width: 768px){
   .header-content .container {
-      width: 750px;
+      width: 800px;
   }
 }
 
@@ -204,15 +204,23 @@ HEADER
 }
 
 .info-header h2 {
-  font-size: 28px;
-  font-size: 5.3rem;
-  letter-spacing: 3px;
+  font-size: 32px;
+  font-size: 6rem;
+  letter-spacing: 2px;
   line-height: 6.2rem;
 }
 
 .info-header  h4 {
   font-size: 22px;
   font-size: 2.5rem;
+}
+
+@media (max-width: 768px){
+  .info-header h4 {
+    font-size: 18px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
 }
 
 .btn--primary {
@@ -237,6 +245,26 @@ HEADER
     border-radius: 999px;
   }
 }
+
+.nav-linea {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nav-linea>[class*=col-]{
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.navbar-brand img {
+  display: block;
+  width: 90px;
+  padding: 0;
+}
+
 
 /*
 ---------------------------

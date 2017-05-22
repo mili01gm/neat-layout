@@ -290,8 +290,8 @@ OUR WORK
 
 .section-span {
   position: relative;
-  width: 225px;
-  height: 225px;
+  width: 255px;
+  height: 255px;
   margin: 0 auto 20px;
   background-color: #ffcc66;
   border-radius: 50%;
@@ -319,8 +319,8 @@ OUR WORK
 }
 
 .section-span .icon {
-  width: 155px;
-  height: 155px;
+  width: 175px;
+  height: 175px;
 }
 
 .icon-works,
@@ -481,7 +481,41 @@ FOOTER
 -------------------------
 */
 
+.footer {
+  padding: 50px 0 10px;
+  text-align: center;
+  background-color: #3498db;
+}
 
+.footer .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.footer-logo {
+  height: auto;
+  width: 120px;
+}
+
+.footer-smalltitle {
+  color: #FFF;
+  margin: 20px 0;
+}
+
+.footer-social {
+  margin: 0 0 50px;
+}
+
+.footer-social a {
+  display: inline-block;
+  background-color: #1280c9;
+  border-radius: 50%;
+  transition: background-color 0.2s linear;
+  margin: 0 5px;
+}
 
 /*
 -------------------------

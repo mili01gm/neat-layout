@@ -3,3 +3,95 @@
   font-style: normal;
   src: url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
 }
+
+.icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  vertical-align: middle;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.icon--lg {
+  width: 175px;
+  height: 175px;
+}
+
+.step--icon {
+  position: relative;
+  width: 225px;
+  height: 225px;
+  margin: 0 auto 20px;
+  background-color: #FFCC66;
+  border-radius: 50%;
+}
+
+@media (min-width: 1200px){
+  .step--icon {
+      width: 275px;
+      height: 275px;
+  }
+}
+
+@media (min-width: 768px){
+  .step--icon {
+      margin: 0 auto;
+  }
+}
+
+.step--icon .icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+  .row__parallel-sm {
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      border-collapse: collapse;
+  }
+}
+@media (min-width: 992px){
+  .row__parallel-lg {
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      border-collapse: collapse;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px){
+  .row__parallel-md {
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      border-collapse  : collapse;
+  }
+}
+
+.heading-blue {
+    color: #3498DB;
+    margin: 0 0 10px;
+}
+
+@media screen and (min-width: 992px){
+  .heading-blue {
+      margin: 0 0 20px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .step-caption {
+      line-height: 36px;
+      line-height: 2.57143rem;
+  }
+}
